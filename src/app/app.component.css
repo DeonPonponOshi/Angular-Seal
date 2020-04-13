@@ -26,3 +26,19 @@ background-color: #cfd8dc;
 nav a.active {
 color: #039be5;
 }
+.layout-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: calc(100%);
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 250px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+}
+.layout-content {
+    margin-left: 250px;
+    padding-top: 0;
+    background-color: #fff;
+}

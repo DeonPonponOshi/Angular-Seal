@@ -1,15 +1,13 @@
-<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
-    <h1 style="font-weight:normal">Left Sidebar</h1>
-    <button pButton type="button" (click)="visibleSidebar1 = false" label="Save" class="ui-button-success"></button>
-    <button pButton type="button" (click)="visibleSidebar1 = false" label="Cancel" class="ui-button-secondary"></button>
-</p-sidebar>
+<div class="layout-sidebar">
+    <h1 style="font-weight:normal">PRIMENG Components</h1>
+</div>
 
-<button pButton type="button" (click)="visibleSidebar1 = true" icon="pi pi-arrow-right"></button>
-
-<h1>{{title}}</h1>
-<nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/heroes">Heroes</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<div class="layout-content">
+    <h1>{{title}}</h1>
+    <nav>
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/heroes">Heroes</a>
+    </nav>
+    <router-outlet></router-outlet>
+    <app-messages></app-messages>
+</div>

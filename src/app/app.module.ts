@@ -17,7 +17,6 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
 
 @NgModule({
@@ -41,7 +40,6 @@ import {ButtonModule} from 'primeng/button';
     FormsModule,
     AccordionModule,
     BrowserAnimationsModule,
-    SidebarModule,
     ButtonModule,
   ],
   providers: [],
