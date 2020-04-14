@@ -15,6 +15,10 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 
+import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {ButtonModule} from 'primeng/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +37,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     InMemoryDataService, { dataEncapsulation: false }),
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AccordionModule,
+    BrowserAnimationsModule,
+    ButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
