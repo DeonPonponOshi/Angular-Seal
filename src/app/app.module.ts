@@ -18,6 +18,8 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng/button';
+import {MenuModule} from 'primeng/menu';
+import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import {ButtonModule} from 'primeng/button';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    SidebarMenuComponent
   ],
   imports: [
     HttpClientModule,
@@ -41,6 +44,7 @@ import {ButtonModule} from 'primeng/button';
     AccordionModule,
     BrowserAnimationsModule,
     ButtonModule,
+    MenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
