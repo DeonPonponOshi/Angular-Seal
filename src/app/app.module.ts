@@ -21,6 +21,7 @@ import {ButtonModule} from 'primeng/button';
 import {MenuModule} from 'primeng/menu';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
 import { TableComponent } from './table/table.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TableComponent } from './table/table.component';
     DashboardComponent,
     HeroSearchComponent,
     SidebarMenuComponent,
-    TableComponent
+    TableComponent,
+    HeroComponent
   ],
   imports: [
     HttpClientModule,

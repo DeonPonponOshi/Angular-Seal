@@ -14,7 +14,7 @@ export class SidebarMenuComponent implements OnInit {
 
   ngOnInit() {
     this.items = [
-        {label: 'Heroes', icon: 'pi pi-fw pi-users', routerLink:'/dashboard'},
+        {label: 'Heroes', icon: 'pi pi-fw pi-users', routerLink:'/hero'},
         {label: 'Table', icon: 'pi pi-fw pi-table', routerLink:'/table'}
     ];
   }
