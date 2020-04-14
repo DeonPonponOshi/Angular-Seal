@@ -20,6 +20,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng/button';
 import {MenuModule} from 'primeng/menu';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    TableComponent
   ],
   imports: [
     HttpClientModule,
