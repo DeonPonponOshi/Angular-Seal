@@ -17,6 +17,7 @@ import {MenuModule} from 'primeng/menu';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
 import { TableComponent } from './table/table.component';
 import { HeroFeatureModule } from './hero-feature/hero-feature.module';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HeroFeatureModule } from './hero-feature/hero-feature.module';
     BrowserAnimationsModule,
     ButtonModule,
     MenuModule,
+    TableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

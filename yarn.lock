@@ -122,6 +122,13 @@
   resolved "http://nexus.shrnd.agfahealthcare.com/repository/npm-ei/@angular/animations/-/animations-9.1.1.tgz#983e54d96e7a854cee801dbac214f31c03c1cfa8"
   integrity sha1-mD5U2W56hUzugB26whTzHAPBz6g=
 
+"@angular/cdk@^9.2.1":
+  version "9.2.1"
+  resolved "http://nexus.shrnd.agfahealthcare.com/repository/npm-ei/@angular/cdk/-/cdk-9.2.1.tgz#9a590b8d4671fe2fa47648297b5ea372267d238f"
+  integrity sha1-mlkLjUZx/i+kdkgpe16jciZ9I48=
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@~9.0.7":
   version "9.0.7"
   resolved "http://nexus.shrnd.agfahealthcare.com/repository/npm-ei/@angular/cli/-/cli-9.0.7.tgz#67df7b13fd750a8ac142b4ab8488439439385885"
@@ -5930,6 +5937,11 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "http://nexus.shrnd.agfahealthcare.com/repository/npm-ei/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha1-bXhlbj2o14tOwLkG98CO8d/j9gg=
+
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "http://nexus.shrnd.agfahealthcare.com/repository/npm-ei/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha1-9o5OW6GFKsLK3AD0VV//bCq7YXg=
 
 parseqs@0.0.5:
   version "0.0.5"
